@@ -1,0 +1,150 @@
+body{
+	font-family: 'Righteous', cursive;
+	width: 940px;
+	margin: 0 auto;
+}
+
+header{
+	width:940px;
+	margin: 0 auto;
+}
+
+.cabeca{
+	padding: 20px 5% 20px;
+	margin: 0 auto;
+}
+
+.imagem-capa{
+	width: 100%;
+	border: 5px solid #303030;
+	border-top: 5px;
+	border-radius: 10px;
+	margin: 0 5%;
+	position: relative;
+	right: 47px;
+	transition: 0.5s;
+}
+
+.imagem-capa:hover{
+	opacity: 75%;
+}
+
+nav ul{
+	border: 5px solid #303030;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px 45px;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 5%;
+	position: relative;
+	left: 20%;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: black;
+	font-size: 15px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+
+nav a:hover{
+	color: #00FFAA;
+}
+
+.menu-galeria{
+	background: #303030;
+	margin: 10px 45px 15px;
+}
+
+nav li.opcoes-galeria{
+	margin: 0 6px;
+	padding: 5px;
+	position: static;
+}
+
+.imagem-menu{
+	width: 17%;
+	margin: 5px auto 5px;
+	transition: 0.5s;
+}
+
+.imagem-menu:hover{
+	width: 17%;
+	margin: 5px auto 5px;
+	transform: scale(1.2);
+}
+
+.imagem-central{
+	width: 13%;
+	margin: 9px 16px 9px;
+	transition: 0.5s;
+}
+
+.imagem-central:hover{
+	width: 13%;
+	margin: 9px 16px 9px;
+	opacity: 40%;
+}
+
+main{
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+}
+
+section{
+	width: 90%;
+	border: 5px solid #303030;
+	border-radius: 10px;
+	margin: 0 auto 25px;
+	padding-bottom: 30px;
+}
+
+h2{
+	margin: 25px auto;
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Righteous', cursive;
+	font-weight: bold;
+	transition: 0.5s;
+}
+
+h2:hover{
+	color: #00FFAA;
+}
+
+p{
+	margin: 15px 7%;
+	padding: 5px;
+	text-align: justify;
+	text-indent: 50px;
+	line-height: 1.5;
+}
+
+footer{
+	background: #303030;
+	border: 5px solid #303030;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 5px 45px 2%;
+}
+
+.imagem-rodape{
+	width: 50%;
+	margin: 0 25%;
+	transition: 0.5s;
+}
+
+.imagem-rodape:hover{
+	opacity: 40%;
+}
+
+.copyright{
+	color: white;
+	font-size: 12px;
+	margin: 0 30% 10px;
+}

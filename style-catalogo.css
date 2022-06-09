@@ -1,0 +1,21 @@
+h3{
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+
+.fotos img{
+	width: 29%;
+	height: 250px;
+	display: inline-block;
+	margin: 15px 11px;
+	padding: 3px;
+	border-radius: 60px;
+	transition: 0.5s;
+}
+
+.fotos img:hover{
+	border-radius: 0px;
+	transform: scale(1.5);
+}
