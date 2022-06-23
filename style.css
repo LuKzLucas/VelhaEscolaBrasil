@@ -113,10 +113,6 @@ h2{
 	transition: 0.5s;
 }
 
-h2:hover{
-	color: #00FFAA;
-}
-
 p{
 	margin: 15px 7%;
 	padding: 5px;
